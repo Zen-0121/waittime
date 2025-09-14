@@ -1,4 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
+
+# Data (生データはGitHubに公開しない)
 data/
-.kaggle/
-*.csv
-*.ipynb_checkpoints
+submission/*.csv
+
+# OS
+.DS_Store
